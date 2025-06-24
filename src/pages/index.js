@@ -51,3 +51,4 @@ export default function Home() {
     View Pricing Plans
   </a>
 </div>
+}
