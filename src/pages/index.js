@@ -23,32 +23,24 @@ export default function Home() {
             <li>CRM and calendar integration</li>
           </ul>
         </section>
+
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <a href="/pricing" style={{
+            display: 'inline-block',
+            backgroundColor: '#3D5A40',
+            color: 'white',
+            padding: '0.75rem 1.5rem',
+            textDecoration: 'none',
+            borderRadius: '6px',
+            fontWeight: 'bold'
+          }}>
+            View Pricing Plans
+          </a>
+        </div>
+
         <Packages />
         <Contact />
       </main>
     </>
   );
-}
-<section style={{ padding: '2rem 0' }}>
-  <h2>What We Offer</h2>
-  <ul>
-    <li>AI-powered call answering</li>
-    <li>Live chat & message handling</li>
-    <li>Appointment scheduling</li>
-    <li>CRM and calendar integration</li>
-  </ul>
-</section>
-<div style={{ textAlign: 'center', marginTop: '2rem' }}>
-  <a href="/pricing" style={{
-    display: 'inline-block',
-    backgroundColor: '#3D5A40',
-    color: 'white',
-    padding: '0.75rem 1.5rem',
-    textDecoration: 'none',
-    borderRadius: '6px',
-    fontWeight: 'bold'
-  }}>
-    View Pricing Plans
-  </a>
-</div>
 }
