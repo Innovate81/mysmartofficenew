@@ -17,12 +17,14 @@ export default function App() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="bg-gray-100 py-16 text-center">
-        <div className="max-w-4xl mx-auto px-4">
+      {/* Hero Section with background image */}
+      <section className="bg-cover bg-center text-white py-32 px-4" style={{
+        backgroundImage: 'url(https://images.unsplash.com/photo-1581091870620-1a35f2b5a0f9?auto=format&fit=crop&w=1200&q=80)'
+      }}>
+        <div className="max-w-4xl mx-auto text-center bg-black bg-opacity-50 p-6 rounded">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Your Office, Smarter and Simplified</h2>
-          <p className="text-lg text-gray-700 mb-6">Professional phone answering, appointment booking & live chat support tailored to your business.</p>
-          <a href="#" className="bg-olive-700 text-white px-6 py-3 rounded hover:bg-olive-800 font-semibold">Get Started</a>
+          <p className="text-xl font-light italic mb-6">Smarter service. Smarter support. Real results.</p>
+          <a href="#" className="bg-white text-olive-700 px-6 py-3 rounded hover:bg-gray-200 font-semibold">Get Started</a>
         </div>
       </section>
 
@@ -34,17 +36,17 @@ export default function App() {
             <div className="p-6 border rounded shadow text-center">
               <img src="https://cdn-icons-png.flaticon.com/512/3050/3050525.png" alt="Call Handling" className="w-16 h-16 mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-2">Call Handling</h4>
-              <p className="text-gray-600 text-sm">We professionally answer calls in your business name, take messages, or transfer calls as needed.</p>
+              <p className="text-gray-600 text-sm">We answer your calls professionally in your business name, take messages, or forward key enquiries — no more missed leads.</p>
             </div>
             <div className="p-6 border rounded shadow text-center">
               <img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png" alt="Appointment Booking" className="w-16 h-16 mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-2">Appointment Booking</h4>
-              <p className="text-gray-600 text-sm">We manage your calendar, book client appointments, and send reminders via email or SMS.</p>
+              <p className="text-gray-600 text-sm">We manage your diary — from inbound calls to live chat bookings, synced to your calendar.</p>
             </div>
             <div className="p-6 border rounded shadow text-center">
               <img src="https://cdn-icons-png.flaticon.com/512/3208/3208707.png" alt="Live Chat" className="w-16 h-16 mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-2">Live Chat Support</h4>
-              <p className="text-gray-600 text-sm">Our trained agents handle your website’s live chat, helping turn visitors into customers 24/7.</p>
+              <p className="text-gray-600 text-sm">Our UK-based team handles your web chat with instant responses, converting visitors into customers 24/7.</p>
             </div>
             <div className="p-6 border rounded shadow text-center">
               <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Business Support" className="w-16 h-16 mx-auto mb-4" />
