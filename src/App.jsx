@@ -50,7 +50,7 @@ export default function App() {
               },
               {
                 title: "Virtual Receptionist",
-                img: "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33",
+            img: "/virtual_receptionist_humanlook.png",    
                 desc: "We answer calls, handle chat, and manage enquiries."
               },
               {
